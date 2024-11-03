@@ -1,4 +1,3 @@
-// components/ExpenseForm/index.jsx
 import { useState } from "react";
 import "./ExpenseForm.css";
 
