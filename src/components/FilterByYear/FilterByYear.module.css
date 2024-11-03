@@ -1,0 +1,58 @@
+.filterByYear {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: linear-gradient(135deg, #a18cd1, #fbc2eb);
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  color: #333;
+  margin: 10px 0;
+  max-width: 750px;
+}
+
+.filterByYearControl label {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.options {
+  border: none;
+  border-radius: 8px;
+  padding: 8px 12px;
+  background-color: #ffffff;
+  color: #333;
+  font-size: 16px;
+  margin-top: 7px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.options:hover {
+  background-color: #f0e6ff;
+  transform: scale(1.05);
+}
+
+.filterByYearMonths {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.filterByYearMonths button {
+  background: linear-gradient(135deg, #f6d365, #fda085);
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.filterByYearMonths button:hover {
+  background: linear-gradient(135deg, #fbc2eb, #a18cd1);
+  transform: scale(1.1);
+}
